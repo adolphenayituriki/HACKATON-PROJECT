@@ -25,12 +25,13 @@ form input{
       width: 300px;
       border-radius: 5px;
       border: none;
+
 }
 form button{
       margin-top: 40px;
       width: 150px;
       border-radius: 10px;
-      background-color: rgb(55, 145, 224);
+      background-color: rgb(50, 148, 234);
 }
 form button:hover{
       background-color: rgb(7, 32, 7);

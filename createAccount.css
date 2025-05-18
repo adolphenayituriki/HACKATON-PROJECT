@@ -1,0 +1,58 @@
+*{
+      max-width: 100%;
+}
+img{
+      max-width: 200px;
+      margin-left: 40%;
+}
+form{
+      margin-left: 30%;
+      margin-top: 15px;
+      background: linear-gradient( rgb(5, 53, 5), rgb(153, 205, 153));
+      max-width: 500px;
+      text-align: center;
+      border-radius: 15px;
+}
+h1{
+      color: white;
+}
+form label{
+      float: left;
+      margin-left: 100px;
+      color: white;
+}
+form input{
+      width: 300px;
+      border-radius: 5px;
+      border: none;
+}
+form button{
+      margin-top: 40px;
+      width: 150px;
+      border-radius: 10px;
+      background-color: rgb(55, 145, 224);
+      font-weight: bold;
+}
+form button:hover{
+      background-color: rgb(7, 32, 7);
+      color: white;
+      transition: 0.5s;
+}
+form p{
+      margin-top: 30px;
+      color: white;
+      border-radius: 15px;
+}
+a{
+      text-decoration: none;
+      font-size: 20px;
+}
+a:hover{
+      color: rgb(6, 26, 68);
+}
+
+select{
+      width: 300px;
+      text-align: center;
+      border: none;
+}

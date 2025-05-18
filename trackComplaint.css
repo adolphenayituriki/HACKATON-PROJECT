@@ -1,0 +1,64 @@
+body{
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: rgb(211, 216, 222);
+}
+img{
+      max-width: 200px;
+      margin-left: 40%;
+}
+.section-divider {
+      margin: 50px 0 20px;
+      border-top: 2px dashed #ccc;
+}
+.status-box {
+      margin-top: 10px;
+      padding: 15px;
+      border-left: 5px solid green;
+      background-color: #f0f9f0;
+      display: none;
+}
+input{
+      border-radius: 5px;
+}
+
+button {
+      margin-top: 20px;
+      max-width: 100%;
+      padding: 12px;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+button:hover {
+      background-color: #0056b3;
+}
+
+.trackstatus{
+      margin-left: 25%;
+      border: 3px #0056b3 solid;
+      padding: 20px;
+      max-width: 700px;
+      margin-top: 40px;
+      box-shadow: 4px 6px green;
+      border-right: none;
+      border-bottom: none;
+}
+
+footer{
+      background-color: rgb(9, 31, 17);
+      color: white;
+      text-align: center;
+      max-height: 100%;
+      padding: 5px;
+      margin-top: 20px;
+      bottom: 0;
+      max-width: 100%;
+}
+footer p{
+      color: rgb(130, 126, 145);
+}

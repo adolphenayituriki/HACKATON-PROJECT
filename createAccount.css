@@ -6,12 +6,18 @@ img{
       margin-left: 40%;
 }
 form{
-      margin-left: 30%;
+      margin-left: 20%;
+      margin-right: 20%;
       margin-top: 15px;
       background: linear-gradient( rgb(5, 53, 5), rgb(153, 205, 153));
-      max-width: 500px;
       text-align: center;
       border-radius: 15px;
+      max-width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #9c9696;
+      font-size: 16px;
+
 }
 h1{
       color: white;

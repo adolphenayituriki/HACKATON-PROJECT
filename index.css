@@ -1,81 +1,133 @@
-body{
-      padding-left: 10px;
-      padding-right: 10px;
+body {
+      padding: 10px;
       background-color: rgb(211, 216, 222);
       background: url(flag.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
 }
-header{
+
+header {
       background-color: white;
       border-bottom-left-radius: 100px;
       border-top-right-radius: 100px;
+      padding: 20px 0;
 }
-header img{
+
+header img {
       max-width: 150px;
-      margin-left: 40%;
+      display: block;
+      margin: 0 auto;
 }
-h1{
+
+h1 {
       text-align: center;
       font-size: 50px;
 }
-a{
-      margin-right: 100px;
-      margin-top: 30px;
+
+a {
+      display: inline-block;
+      margin: 20px 10px;
       color: wheat;
-      max-width: 1000px;
-      font-size: 20px;
-      text-decoration: none;
       font-size: 30px;
+      text-decoration: none;
       font-weight: bold;
 }
-a:hover{
+
+a:hover {
       background-color: rgb(15, 143, 75);
       color: white;
       border-radius: 5px;
+      padding: 5px;
 }
-#login{
-      margin-left: 20%;
+
+#login {
+      margin: 30px auto;
       background-color: rgb(213, 224, 213);
       max-width: 700px;
       border-radius: 10px;
       box-shadow: 4px 8px blue;
+      padding: 20px;
 }
-.login, h3{
+
+.login, h3 {
       text-align: center;
       max-width: 650px;
       font-weight: bold;
       color: rgb(31, 61, 228);
+      margin: auto;
 }
-.login button{
+
+.login button {
       border: 2px solid;
       border-radius: 5px;
       background-color: rgb(31, 61, 228);
       margin-top: 20px;
       color: wheat;
       font-weight: bold;
-}
-.login button:hover{
-      background-color: rgb(25, 165, 25);
-      transition: scale(1.5px);
+      padding: 10px 20px;
+      cursor: pointer;
 }
 
-h3{
+.login button:hover {
+      background-color: rgb(25, 165, 25);
+      transform: scale(1.05);
+      transition: 0.3s ease;
+}
+
+h3 {
       margin-top: 40px;
 }
-.createAccount{
+
+.createAccount {
       background-color: rgb(144, 160, 211);
       border-radius: 5px;
       font-size: 20px;
+      padding: 10px;
+      margin-top: 20px;
+      display: inline-block;
 }
-footer{
+
+footer {
       background-color: rgb(9, 31, 17);
       color: white;
       text-align: center;
-      max-height: 100%;
-      padding: 5px;
-      margin-top: 20px;
+      padding: 10px;
+      margin-top: 30px;
+      width: 100%;
+      position: relative;
       bottom: 0;
-      max-width: 100%;
 }
-footer p{
+
+footer p {
       color: rgb(130, 126, 145);
+      margin: 0;
 }
+
+@media (max-width: 600px) {
+      h1 {
+            font-size: 32px;
+}
+
+a {
+      font-size: 20px;
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+}
+
+#login {
+      padding: 15px;
+      width: 95%;
+}
+
+.createAccount {
+      font-size: 18px;
+}
+
+header img {
+      max-width: 120px;
+}
+}
+

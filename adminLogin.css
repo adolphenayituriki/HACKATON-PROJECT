@@ -4,7 +4,7 @@
 }
 
 img {
-    max-width: 10%; /* Allow image to shrink */
+      max-width: 10%;
       height: auto;
       display: block;
       margin: 0 auto;
